@@ -1,10 +1,10 @@
-[ CASO DE TESTE ]
-ID: CT-___ | Requisito/Critério Alvo: __________________
-Pré-condição: Aplicação aberta no navegador Google Chrome.
+**ID:** CT-003 | **Requisito/Critério Alvo:** Verificar se o sistema exige o preenchimento dos dados de entrega.
 
-Passos de Execução:
-1.
-2.
-3.
+**Pré-condição:** Aplicação aberta no navegador Google Chrome.
 
-Resultado Esperado:
+**Passos de Execução:**
+1. Deixar os campos Nome Completo e Endereço de Entrega vazios.
+2. Selecionar um produto do cardápio.
+3. Clicar no botão “Finalizar Carrinho”.
+
+**Resultado Esperado:** O sistema deve impedir a finalização do pedido e informar que os campos obrigatórios precisam ser preenchidos.

@@ -1,10 +1,10 @@
-[ CASO DE TESTE ]
-ID: CT-___ | Requisito/Critério Alvo: __________________
-Pré-condição: Aplicação aberta no navegador Google Chrome.
+**ID:** CT-002 | **Requisito/Critério Alvo:** Verificar se o cupom de desconto é aplicado corretamente.
 
-Passos de Execução:
-1.
-2.
-3.
+**Pré-condição:** Aplicação aberta no navegador Google Chrome.
 
-Resultado Esperado:
+**Passos de Execução:**
+1. Selecionar 1 X-Burger Duplo Premium, no valor de R$ 35,00.
+2. Digitar o cupom `SENAC20` no campo de desconto e clicar no botão de aplicação.
+3. Verificar se o desconto é calculado corretamente sobre o valor dos produtos.
+
+**Resultado Esperado:** Caso o cupom seja válido, o sistema deve aplicar 20% de desconto sobre R$ 35,00, equivalente a R$ 7,00. O subtotal com desconto deve ser R$ 28,00, e o total com a taxa de entrega de R$ 8,00 deve ser R$ 36,00.

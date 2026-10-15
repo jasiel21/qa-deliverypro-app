@@ -1,10 +1,10 @@
-[ CASO DE TESTE ]
-ID: CT-___ | Requisito/Critério Alvo: __________________
-Pré-condição: Aplicação aberta no navegador Google Chrome.
+**ID:** CT-004 | **Requisito/Critério Alvo:** Verificar se o botão “Finalizar Carrinho” permite concluir o pedido corretamente.
 
-Passos de Execução:
-1.
-2.
-3.
+**Pré-condição:** Aplicação aberta no navegador Google Chrome.
 
-Resultado Esperado:
+**Passos de Execução:**
+1. Selecionar um produto do cardápio.
+2. Preencher o nome completo e o endereço de entrega e selecionar o bairro.
+3. Clicar no botão “Finalizar Carrinho”.
+
+**Resultado Esperado:** O botão deve responder ao clique e apresentar a confirmação do pedido com as informações corretas, sem permitir a conclusão caso existam dados obrigatórios inválidos.

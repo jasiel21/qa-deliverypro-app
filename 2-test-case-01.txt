@@ -1,10 +1,14 @@
-[ CASO DE TESTE ]
-ID: CT-___ | Requisito/Critério Alvo: __________________
-Pré-condição: Aplicação aberta no navegador Google Chrome.
+# CASO DE TESTE
 
-Passos de Execução:
-1.
-2.
-3.
+**ID:** CT-001
 
-Resultado Esperado:
+**Requisito/Critério Alvo:** Verificar se o sistema calcula corretamente o subtotal dos produtos, a taxa de entrega e o valor total do pedido.
+
+**Pré-condição:** Aplicação aberta no navegador Google Chrome.
+
+**Passos de Execução:**
+1. Selecionar a quantidade 1 para o X-Burger Duplo Premium, cujo preço é R$ 35,00.
+2. Verificar se o subtotal é atualizado para R$ 35,00 e se a taxa de entrega permanece em R$ 8,00.
+3. Conferir se o valor total exibido é R$ 43,00, sem aplicar cupom de desconto.
+
+**Resultado Esperado:** O sistema deve calcular corretamente o subtotal de R$ 35,00, somar a taxa de entrega de R$ 8,00 e apresentar o total de R$ 43,00.

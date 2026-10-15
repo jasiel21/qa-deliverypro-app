@@ -1,12 +1,18 @@
-[ BUG REPORT / ISSUE ]
-Título: _____________________________________________________
-Severidade: ( ) Baixa  ( ) Média  ( ) Alta  ( ) Crítica
+# BUG REPORT / ISSUE
 
-Passos para Reproduzir a Falha:
-1.
-2.
+**Título:** Erro no cálculo do desconto do cupom
 
-Resultado Esperado (O que a regra de negócio pedia):
-Resultado Obtido (O que o sistema fez de errado):
+**Severidade:** ( ) Baixa  ( ) Média  (X) Alta  ( ) Crítica
 
-Análise de Caixa Branca (Onde está o defeito no código?):
+**Passos para Reproduzir a Falha:**
+1. Adicionar um produto de R$ 35,00 ao carrinho.
+2. Aplicar um cupom de desconto de 20% e verificar o valor calculado.
+
+**Resultado Esperado (O que a regra de negócio pedia):**  
+O sistema deve aplicar 20% de desconto sobre o valor dos produtos. Para R$ 35,00, o desconto deve ser de R$ 7,00, deixando o subtotal em R$ 28,00.
+
+**Resultado Obtido (O que o sistema fez de errado):**  
+O código multiplica o valor por 20, em vez de aplicar um desconto de 20%, podendo apresentar um total incorreto.
+
+**Análise de Caixa Branca (Onde está o defeito no código?):**  
+No JavaScript, na linha indicada como 331, a instrução `totalCalculado = totalCalculado * 20;` está incorreta. Para aplicar 20% de desconto, deve ser utilizada a operação `totalCalculado = totalCalculado * 0.80;`.
